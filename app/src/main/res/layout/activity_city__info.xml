@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#000000">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="18dp"
+            android:src="@drawable/r_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="城市介绍"
+            android:id="@+id/textView"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:background="@drawable/restaurant_img">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小坳田岛屿"
+                    android:id="@+id/textView9"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#c1c1c1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="城市介绍"
+                        android:id="@+id/textView6"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="北京是中华人民共和国的首都，四个直辖市之一，全国政治、文化和国际交往中心。     北京是中国陆空交通的总枢纽和最重要的国内国际交往中心。并已经成功举办了2008年北京奥运会。     北京还是一座有三千余年历史、八百五十余年的建都史的文化名城，历史上共有五个皇朝曾在此定都，是世界历史文化名城和中国四大古都之一。早在70万年前，北京周口店地区就出现了原始人群落“北京人”，北京最初见于记载的名字为“蓟”。     全球只有极少数城市像北京一样长时间作为一个国家的政治和文化中心。《不列颠百科全书》将北京形容为全球最伟大的城市之一，而且断言，“这座城市是中国历史最重要的组成部分。在中国过去的八个世纪里，不论历史是否悠久，几乎北京所有主要建筑都拥有着不可磨灭的民族和历史意义”。故宫、天坛、颐和园、圆明园、北海公园等数不胜数的古迹为这座城市添加了更绚烂的色彩。     古老而富有韵味之中又有现代都市繁华的庞大城区，向东南方铺展的广阔平原，加之逶迤蜿蜒、镇守城区西北的太行山脉和燕山山脉，成就了北京独特的魅力。园林遗迹，古刹皇陵，给北京城注入了深厚的人文底蕴；峻崖曲壑，丽泉飞瀑，为城郊挂上了一层神秘的面纱；而人来人往的步行街和星罗棋布的商业区，则为这座古老的城市增添了时代的新生命力。     今日的北京，更已发展成为一座现代化的国际大都市：金融街早已是中国名副其实的金融管理中心；北京商务中心区更是北京对外开放和经济实力的象征。此外，中国国家大剧院、北京首都国际机场3号航站楼、中央电视台总部大楼、“鸟巢”、“水立方”等建筑也成了新北京的现代符号。游走在北京的胡同小巷之间，全世界的各色人种你都可以看到。北京正以它古老又时尚的全新面貌，迎接每年超过1亿4700万的旅客。"
+                android:id="@+id/textView8"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
